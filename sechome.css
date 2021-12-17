@@ -88,7 +88,7 @@ select{
     margin-left:10%;
     margin-top:3%;
     display: inline-block;
-    background-color: #e2dad6;
+    
 }
 
 #QuickHeading{
@@ -158,4 +158,95 @@ select{
 }
 #foot{
    margin-top: 2% ;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:#e2dad6 ;
+    }
+
+}
+@media screen and (max-width:1400px){
+    body{
+        background-color: #e2dad6;
+
+    }
+ #heading{
+            margin-left: 27%;
+ }
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: #e2dad6
+    } 
+         #logo{
+        margin-left:43%;
+        }
+        .dropdown{
+            margin-top: 23%;
+        }
+        #heading{
+            margin-left: 23%;
+            margin-top: 16%;
+        }
+        .tileComponent2{
+            margin-top: 35%;
+        }
+       
+
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: #e2dad6;
+    }
+        #heading{
+            margin-left: 18%;
+            margin-top: 20%;
+        }
+        .dropdown{
+            margin-top: 28%;
+        }
+        .tileComponent2{
+            margin-top: 40%;
+        }
+    }
+
+
+@media screen and (max-width:800px){
+    body{
+        background-color: #e2dad6;
+    }
+    #heading{
+        margin-left: 20%;
+        margin-top: 28%;
+         font-size:35px;
+    }
+    .dropdown{
+        margin-top: 40%;
+    }
+    .tileContainer{
+       
+        width:47%;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: #e2dad6;
+    }
+    #logo{
+        
+        margin-left: 39%;
+    }
+    #heading{
+        margin-left:15%;
+        margin-top: 33%;
+        font-size:30px;
+    }
+    .dropdown{
+        margin-top: 45%;
+    }
+    .tileContainer{
+       
+        width:90%;
+    }
 }
